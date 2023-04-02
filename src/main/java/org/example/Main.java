@@ -11,7 +11,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Main {
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 38fc810540f5a51aeea00a963fd029b253c4256a
     public static void WordFillTemplate(String templatePath,String outputPath,Map<String, String> placeholderValues) {
         WordprocessingMLPackage template = null;
         try {
