@@ -4,6 +4,7 @@ import org.docx4j.model.datastorage.migration.VariablePrepare;
 import org.docx4j.openpackaging.exceptions.Docx4JException;
 import org.docx4j.openpackaging.packages.WordprocessingMLPackage;
 import org.docx4j.openpackaging.parts.WordprocessingML.MainDocumentPart;
+
 import javax.xml.bind.JAXBException;
 import java.io.File;
 
@@ -11,11 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Main {
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> 38fc810540f5a51aeea00a963fd029b253c4256a
     public static void WordFillTemplate(String templatePath,String outputPath,Map<String, String> placeholderValues) {
         WordprocessingMLPackage template = null;
         try {
